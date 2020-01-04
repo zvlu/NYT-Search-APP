@@ -4,16 +4,16 @@
 
 }
 header {
-    font-size: larger;
+    font-size: 60px;
     background-color: rgb(51,64,156);
     color: white;
-    
+    padding: 25px;
     justify-content: center;
-    align-content: center;
+    text-align: center;
     display: inline-block;
 }
 .container {
-   
+    padding: 25px;
     justify-content: center;
     align-content: center;
     display: inline-block;
