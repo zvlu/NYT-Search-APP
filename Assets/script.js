@@ -1,9 +1,11 @@
-var articleURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + APIquery + "&fq=" + APIKey
-var APIKey = "1a6f238b-106c-4d68-9c6e-c3629e6c9a00"
-var APIquery = "cars"
+
+var APIKey = "VAPqVHTn1B0azfCnmll5YUg2TIsvHlHR";
+var APIquery = $('#searchP')
+var articleURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + APIquery + "&api-key=" + APIKey;
+
 
 $.ajax({
-    url: articleURL + APIquery + APIKey,
+    url: articleURL,
     method: "GET"
 }).then(function(response){
     console.log(response)
