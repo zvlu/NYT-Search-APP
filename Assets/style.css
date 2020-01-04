@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+header {
+    font-size: larger;
+    background-color: rgb(51,64,156);
+    color: white;
+    
+    justify-content: center;
+    align-content: center;
+    display: inline-block;
+}
+.container {
+   
+    justify-content: center;
+    align-content: center;
+    display: inline-block;
+
+}
